@@ -26,12 +26,12 @@ Tipe data adalah adalah sebuah pengklasifikasian data berdasarkan jenis data. Ti
      sebuah struktur data dan menjadi bagian dari data yang baru
      yang bersifat public (terbuka) secara default.
 3. Tipe Data Koleksi <br/>
-   - Array 
-     struktur data statis yang menyimpan elemen-elemen dengan tipe data yang sama
-   - Vector 
-     vector mirip seperti array yang memiliki kemampuan untuk menyimpan data dalam bentuk elemen-elemen yang alokasi memorinya dilakukan otomatis dan bersebelahan
-   - Map 
-     Map terasa mirip dengan array namun dengan index yang memungkinkan untuk berupa tipe data selain integer
+   - Array <br/>
+     Struktur data statis yang menyimpan elemen-elemen dengan tipe data yang sama
+   - Vector <br/>
+     Mirip seperti array yang memiliki kemampuan untuk menyimpan data dalam bentuk elemen-elemen yang alokasi memorinya dilakukan otomatis dan bersebelahan
+   - Map <br/>
+     terasa mirip dengan array namun dengan index yang memungkinkan untuk berupa tipe data selain integer
 
 ## Guided 
 
