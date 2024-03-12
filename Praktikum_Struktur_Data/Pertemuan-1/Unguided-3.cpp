@@ -9,25 +9,12 @@ Perbedaan Array dengan Map
   - Hanya dapat menggunakan tipe data primitif
   - Harus menggunakan bilangan bulat non-negatif dan mulai berurutan dari 0
   - Harus dideklarasikan dengan ukuran yang tetap
-  - Biasa digunakan untuk menyimpan data yang berurutan
+
 
 = Map
   - Dapat menggunakan tipe data apapun
   - Dapat menggunakan nilai berapa pun & tidak harus berurutan
   - Map dapat dideklarasikan dengan ukuran yang dinamis
-  - Biasa digunakan untuk menyimpan data yang tidak berurutan
-1. Indeks
-- Array harus bilangan bulat non-negatif & mulai berurutan dari 0
-- Map dapat berupa nilai berapa pun & tidak harus berurutan
-2. Ukuran
-- Array harus dideklarasikan dengan ukuran yang tetap
-- Map dapat dideklarasikan dengan ukuran yang dinamis
-3. Tipe Data
-- Array hanya dapat menggunakan tipe data primitif
-- Map dapat menggunakan tipe data apapun
-4. Penggunaan
-- Array digunakan untuk menyimpan data yang berurutan
-- Map digunakan untuk menyimpan data yang tidak berurutan dan perlu diakses berdasarkan key
 */
 
 // Contoh Program Fungsi Map
