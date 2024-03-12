@@ -325,7 +325,7 @@ Berfungsi sebagai tempat untuk mengumpulkan tipe data ke dalam
 sebuah struktur data dan menjadi bagian dari data yang baru
 yang bersifat public (terbuka) secara default."
 
-### 3. [Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map!]
+### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map!
 
 ```C++
 #include <iostream>
@@ -373,5 +373,5 @@ int main() {
 "Tipe data adalah bagian pemograman yang sangat penting karena dapat menentukan jenis nilai yang disimpan sangat berguna agar sistem tidak bingung. Sebagai programmer, memahami tipe data membantu kita koding lebih efisien, akurat, dan mudah."
 
 ## Referensi
-[1] Musiafa, Zayid. "STRUKTUR DATA DAN IMPLEMENTASI ALGORITMA (SDIA): Pemrograman Python C C++ Java" (2022)
-[2] Putra, Muhammad Taufik Dwi, Munawir Munawir, and Ana Rahma Yuniarti. "BELAJAR PEMROGRAMAN LANJUT DENGAN C++." (2023).
+[1] Musiafa, Zayid. "STRUKTUR DATA DAN IMPLEMENTASI ALGORITMA (SDIA): Pemrograman Python C C++ Java" (2022).<br/>
+[2] Putra, Muhammad Taufik Dwi, Munawir Munawir, and Ana Rahma Yuniarti. "BELAJAR PEMROGRAMAN LANJUT DENGAN C++." (2023).<br/>
