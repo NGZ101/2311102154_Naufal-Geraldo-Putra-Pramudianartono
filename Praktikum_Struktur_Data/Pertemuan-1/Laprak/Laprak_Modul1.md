@@ -8,23 +8,23 @@ Tipe data adalah adalah sebuah pengklasifikasian data berdasarkan jenis data. Ti
 1. Tipe data Primitif <br/>
    Tipe data primitif adalah tipe data yang sudah ditentukan oleh sistem, tipe data
    primitif ini disediakan oleh banyak bahasa pemrograman. Contoh tipe data primitif:
-   -Int (Bilangan bulat)
-   -Float (Bilangan desimal)
-   -Char (Huruf)
-   -Boolean (True/False)"
+   - Int (Bilangan bulat)
+   - Float (Bilangan desimal)
+   - Char (Huruf)
+   - Boolean (True/False)"
 2. Tipe data Abstrak <br/>
    Tipe data abstrak  merupakan tipe data yang dibentuk oleh 
    programer itu sendiri. Pada tipe data abstrak bisa berisi
    banyak tipe data, jadi nilainya bisa lebih dari satu dan beragam tipe data. 
-   -Class
-    Suatu konsep dari Object Oriented Programming (OOP) yang
-    berfungsi sebagai tempat untuk mengumpulkan tipe data ke dalam
-    suatu kelas data dan menjadi deskripsi suatu objek 
-    yang bersifat private (tertutup) secara default.
-   -Struct 
-    Berfungsi sebagai tempat untuk mengumpulkan tipe data ke dalam 
-    sebuah struktur data dan menjadi bagian dari data yang baru
-    yang bersifat public (terbuka) secara default.
+   - Class<br/>
+     Suatu konsep dari Object Oriented Programming (OOP) yang
+     berfungsi sebagai tempat untuk mengumpulkan tipe data ke dalam
+     suatu kelas data dan menjadi deskripsi suatu objek 
+     yang bersifat private (tertutup) secara default.
+   - Struct <br/>
+     Berfungsi sebagai tempat untuk mengumpulkan tipe data ke dalam 
+     sebuah struktur data dan menjadi bagian dari data yang baru
+     yang bersifat public (terbuka) secara default.
 3. Tipe Data Koleksi <br/>
    -Array 
     struktur data statis yang menyimpan elemen-elemen dengan tipe data yang sama
