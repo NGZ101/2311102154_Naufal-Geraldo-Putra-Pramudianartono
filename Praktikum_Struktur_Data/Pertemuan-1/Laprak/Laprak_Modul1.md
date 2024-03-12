@@ -3,7 +3,7 @@
 
 ## Dasar Teori
 
-"Tipe data adalah adalah sebuah pengklasifikasian data berdasarkan jenis data. Tipe data digunakan untuk menampung data sementara.
+Tipe data adalah adalah sebuah pengklasifikasian data berdasarkan jenis data. Tipe data digunakan untuk menampung data sementara.
 
 1. Tipe data Primitif <br/>
    Tipe data primitif adalah tipe data yang sudah ditentukan oleh sistem, tipe data
@@ -31,7 +31,7 @@
    -Vector 
     vector mirip seperti array yang memiliki kemampuan untuk menyimpan data dalam bentuk elemen-elemen yang alokasi memorinya dilakukan otomatis dan bersebelahan
    -Map 
-    Map terasa mirip dengan array namun dengan index yang memungkinkan untuk berupa tipe data selain integer"
+    Map terasa mirip dengan array namun dengan index yang memungkinkan untuk berupa tipe data selain integer
 
 ## Guided 
 
@@ -87,7 +87,7 @@ int main(){
 }
 ```
 
-"Kode di atas mempnyai 4 operasi, yaitu: penjumlahan (+), pengurangan (-), perkalian (*), dan pembagian (/). User dapat menginput salah satu simbol operator lalu menginput 2 bilangan yang ingin dihitung. Program ini menggunkan data primitif char untuk membolehkan user memilih simbol operator dan data primitif float untuk perhitungan kedua bilangan yang diinput user."
+Kode di atas mempnyai 4 operasi, yaitu: penjumlahan (+), pengurangan (-), perkalian (*), dan pembagian (/). User dapat menginput salah satu simbol operator lalu menginput 2 bilangan yang ingin dihitung. Program ini menggunkan data primitif char untuk membolehkan user memilih simbol operator dan data primitif float untuk perhitungan kedua bilangan yang diinput user.
 
 ### 2. Tipe Data Abstrak
 
@@ -131,7 +131,7 @@ int main(){
 }
 ```
 
-"Kode di atas merupakan program untuk mencetak struct, yaitu salah satu tipe data abstrak. Dalam struct mahasiswa berisi tipe data char name dengan ukuran 50, char address dengan ukuran 50, dan int age. Dalam int main struct mahasiswa dideklarasikan dengan 2 objek yaitu mh1 dan mh2 lalu bagian name, address, dan age diisi."
+Kode di atas merupakan program untuk mencetak struct, yaitu salah satu tipe data abstrak. Dalam struct mahasiswa berisi tipe data char name dengan ukuran 50, char address dengan ukuran 50, dan int age. Dalam int main struct mahasiswa dideklarasikan dengan 2 objek yaitu mh1 dan mh2 lalu bagian name, address, dan age diisi.
 
 ### 3. Tipe Data Koleksi
 
@@ -162,7 +162,7 @@ int main (){
 }
 ```
 
-"Kode di atas merupakan program untuk mengoutputkan array, yaitu salah satu tipe data koleksi. #include <array> diperlukan untuk menggunakan fungsi array.Array diatas nilai menampung lima nilai: 23, 50, 34, 78, dan 90, lalu dideklarasikan"
+Kode di atas merupakan program untuk mengoutputkan array, yaitu salah satu tipe data koleksi. #include <array> diperlukan untuk menggunakan fungsi array.Array diatas nilai menampung lima nilai: 23, 50, 34, 78, dan 90, lalu dideklarasikan
 
 ## Unguided 
 
@@ -257,10 +257,10 @@ int main() {
 #### Output:
 ![alt text](<Unguided-1_2311102154_Naufal Geraldo Putra Pramudianartono.png>)
 
-"Kode di atas mempnyai 4 pilihan, yaitu: penjumlahan (+), pengurangan (-), perkalian (*), dan pembagian (/). User dapat memilih dari menu dan menginput a sampai d lalu menginput 2 bilangan yang ingin dihitung. Program ini menggunkan 4 fungsi dan 1 prosedur, 4 fungsi tersebut untuk logika rumus dan 1 prosedur untuk memulai program dan menampilkan menu awal. Program ini akan berulang selama user tidak menginput 0 karena adanya perulangan do while. Program ini juga menggunakan #include <cctype> dan tolower() untuk mengubah input huruf besar menjadi huruf kecil supaya program dapat membaca input walaupun user secara tidak sengaja memencet caps lock.
+Kode di atas mempnyai 4 pilihan, yaitu: penjumlahan (+), pengurangan (-), perkalian (*), dan pembagian (/). User dapat memilih dari menu dan menginput a sampai d lalu menginput 2 bilangan yang ingin dihitung. Program ini menggunkan 4 fungsi dan 1 prosedur, 4 fungsi tersebut untuk logika rumus dan 1 prosedur untuk memulai program dan menampilkan menu awal. Program ini akan berulang selama user tidak menginput 0 karena adanya perulangan do while. Program ini juga menggunakan #include <cctype> dan tolower() untuk mengubah input huruf besar menjadi huruf kecil supaya program dapat membaca input walaupun user secara tidak sengaja memencet caps lock.
 
 Kesimpulan Tipe Data Primitif:<br/>
-Tipe data primitif merupakan tipe data yang berada pada default yang disediakan bahasa pemograman dan sangat penting untuk penampungan data sederhana." 
+Tipe data primitif merupakan tipe data yang berada pada default yang disediakan bahasa pemograman dan sangat penting untuk penampungan data sederhana.
 
 ### 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya!
 
@@ -312,7 +312,7 @@ int main() {
 #### Output:
 ![Output Unguided-2](<Unguided-2_2311102154_Naufal Geraldo Putra Pramudianartono.png>)
 
-"Kode di atas digunakan merupakan program yang mengoutputkan class dan struct. Dalam class user_154 menampung 3 variabel string dan 1 int. 3 variabel string: nama_154, tempatlahir_154, dan agama_154. 1 variabel int: usia_154. Dalam struct sercontact_154 menampung 3 variabel string yaitu: email_154, instagram_154, twitter_154. Class dan struct kemudian diisi dengan nilai pengguna untuk class dan kontak untuk struct.
+Kode di atas digunakan merupakan program yang mengoutputkan class dan struct. Dalam class user_154 menampung 3 variabel string dan 1 int. 3 variabel string: nama_154, tempatlahir_154, dan agama_154. 1 variabel int: usia_154. Dalam struct sercontact_154 menampung 3 variabel string yaitu: email_154, instagram_154, twitter_154. Class dan struct kemudian diisi dengan nilai pengguna untuk class dan kontak untuk struct.
 
 Fungsi Class:<br/>
 Suatu konsep dari Object Oriented Programming (OOP) yang
@@ -323,7 +323,7 @@ yang bersifat private (tertutup) secara default.
 Fungsi Struct:<br/>
 Berfungsi sebagai tempat untuk mengumpulkan tipe data ke dalam 
 sebuah struktur data dan menjadi bagian dari data yang baru
-yang bersifat public (terbuka) secara default."
+yang bersifat public (terbuka) secara default.
 
 ### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map!
 
@@ -357,7 +357,7 @@ int main() {
 #### Output:
 ![Output Unguided-3](<Unguided-3_2311102154_Naufal Geraldo Putra Pramudianartono.png>)
 
-"Kode di atas merupakan program untuk mengoutputkan sebuah map. Pada kode di atas, terdapat sebuah map game_154 dengan key yang bersifat int dan value bersifat string. Ada 5 lima elemen yang berisi game yang dijual di Steam. Lalu perulangan for digunakan untuk menampilkan semua elemen.
+Kode di atas merupakan program untuk mengoutputkan sebuah map. Pada kode di atas, terdapat sebuah map game_154 dengan key yang bersifat int dan value bersifat string. Ada 5 lima elemen yang berisi game yang dijual di Steam. Lalu perulangan for digunakan untuk menampilkan semua elemen.
 
 1. Array
    - Hanya dapat menggunakan tipe data primitif
@@ -370,7 +370,7 @@ int main() {
    - Map dapat dideklarasikan dengan ukuran yang dinamis"
 
 ## Kesimpulan
-"Tipe data adalah bagian pemograman yang sangat penting karena dapat menentukan jenis nilai yang disimpan sangat berguna agar sistem tidak bingung. Sebagai programmer, memahami tipe data membantu kita koding lebih efisien, akurat, dan mudah."
+Tipe data adalah bagian pemograman yang sangat penting karena dapat menentukan jenis nilai yang disimpan sangat berguna agar sistem tidak bingung. Sebagai programmer, memahami tipe data membantu kita koding lebih efisien, akurat, dan mudah.
 
 ## Referensi
 [1] Musiafa, Zayid. "STRUKTUR DATA DAN IMPLEMENTASI ALGORITMA (SDIA): Pemrograman Python C C++ Java" (2022).<br/>
