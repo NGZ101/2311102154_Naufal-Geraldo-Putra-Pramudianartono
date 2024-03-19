@@ -350,3 +350,4 @@ Array secara umum dapat berbentuk:
 ## Referensi
 [1] Pratama,Muhammad Aldi. "STRUKTUR DATA ARRAY DUA DIMENSI PADA PEMROGRAMAN C++" (2020).<br/>
 [2] Putri, Meidyan Permata, et al., "Algoritma dan Struktur Data" (2022).<br/>
+[3] Tou, N., Kom, S., & Kom, M. "Bahan ajar: dasar-dasar pemrograman" (2022).<br/>
