@@ -12,7 +12,7 @@ struct Node {
     Node *tail;
 
 //Instalasi Node 
-void init() {
+void init_154() {
     head = NULL;
     tail = NULL;
 }
@@ -220,7 +220,7 @@ void clearList() {
 }
 
 // Tampilkan List
-void tampil() {
+void tampil_154() {
     Node *bantu;
     bantu = head;
     if(isEmpty() == false) {
@@ -236,27 +236,27 @@ void tampil() {
 }
 
 int main() {
-    init();
-    insertDepan(3);tampil();
+    init_154();
+    insertDepan(3);tampil_154();
     insertBelakang(5);
-    tampil();
+    tampil_154();
     insertDepan(2);
-    tampil();
+    tampil_154();
     insertDepan(1);
-    tampil();
+    tampil_154();
     hapusDepan();
-    tampil();
+    tampil_154();
     hapusBelakang();
-    tampil();
+    tampil_154();
     insertTengah(7,2);
-    tampil();
+    tampil_154();
     hapusTengah(2);
-    tampil();
+    tampil_154();
     ubahDepan(1);
-    tampil();
+    tampil_154();
     ubahBelakang(8);
-    tampil();
+    tampil_154();
     ubahTengah(11, 2);
-    tampil();
+    tampil_154();
     return 0;
 }

@@ -34,10 +34,10 @@ int hitung_list_154() {
 }
 
 // Menambahkan node di depan
-void input_depan_154(string nama,int usia) {
+void input_depan_154(string nama_154,int usia) {
     // membuat Node baru
     Node *baru = new Node;
-    baru->nama_154 = nama;
+    baru->nama_154 = nama_154;
     baru->usia_154 = usia;
     baru->next = NULL;
     if (itsEmpty_154()){
@@ -50,16 +50,16 @@ void input_depan_154(string nama,int usia) {
 }
 
 // Menambahkan node di tengah
-void input_tengah_154(string nama, int usia, int posisi) {
+void input_tengah_154(string nama_154, int usia, int posisi) {
     if (posisi < 1 || posisi > hitung_list_154() + 1) {
         cout << "Posisi diluar jangkauan" << endl;
     } 
     else if (posisi == 1) {
-        input_depan_154(nama, usia);
+        input_depan_154(nama_154, usia);
     } 
     else {
         Node* baru = new Node();
-        baru->nama_154 = nama;
+        baru->nama_154 = nama_154;
         baru->usia_154 = usia;
         Node* bantu = head;
         int nomor = 1;
@@ -73,10 +73,10 @@ void input_tengah_154(string nama, int usia, int posisi) {
 }
 
 // Menambahkan node di belakang
-void input_belakang_154(string nama, int usia) {
+void input_belakang_154(string nama_154, int usia) {
     // membuat Node baru
     Node* baru = new Node;
-    baru->nama_154 = nama;
+    baru->nama_154 = nama_154;
     baru->usia_154 = usia;
     baru->next = NULL;
 
@@ -150,7 +150,7 @@ void hapus_belakang_154(){
 }
 
 // Update Node di tengah
-void ubah_tengah_154(string nama, int usia, int posisi){
+void ubah_tengah_154(string nama_154, int usia, int posisi){
     if (posisi < 1 || posisi > hitung_list_154()) {
         cout << "Posisi di luar jangkauan" << endl;
     } 
@@ -161,15 +161,15 @@ void ubah_tengah_154(string nama, int usia, int posisi){
             bantu = bantu->next;
             nomor++;
         }
-        bantu->nama_154 = nama;
+        bantu->nama_154 = nama_154;
         bantu->usia_154 = usia;
     }
 }
 
 // Update Node di belakang
-void ubah_belakang_154(string nama,int usia){
+void ubah_belakang_154(string nama_154,int usia){
     if (!itsEmpty_154()) {
-        tail->nama_154 = nama;
+        tail->nama_154 = nama_154;
         tail->usia_154 = usia;
     } 
     else {
@@ -232,7 +232,7 @@ int main()
             case 1: {
                 string nama_154;
                 int usia_154;
-                cout << "Masukkan nama: ";
+                cout << "Masukkan nama_154: ";
                 cin >> nama_154;
                 cout << "Masukkan usia: ";
                 cin >> usia_154;
@@ -241,7 +241,7 @@ int main()
             }
             case 2: {
                 string namaHapus;
-                cout << "Masukkan nama data yang ingin dihapus: ";
+                cout << "Masukkan nama_154 data yang ingin dihapus: ";
                 cin >> namaHapus;
                 Node* temp = head;
                 int posisi = 1;
@@ -251,19 +251,19 @@ int main()
                 }
                 if (temp != NULL) {
                     hapus_tengah_154(posisi);
-                    cout << "Data dengan nama " << namaHapus << " berhasil dihapus." << endl;
+                    cout << "Data dengan nama_154 " << namaHapus << " berhasil dihapus." << endl;
                 } 
                 else {
-                    cout << "Data dengan nama " << namaHapus << " tidak ditemukan." << endl;
+                    cout << "Data dengan nama_154 " << namaHapus << " tidak ditemukan." << endl;
                 }
                 break;
             }
             case 3: {
                 string namaLama, namaBaru;
                 int usiaBaru;
-                cout << "Masukkan nama yang ingin diupdate: ";
+                cout << "Masukkan nama_154 yang ingin diupdate: ";
                 cin >> namaLama;
-                cout << "Masukkan nama baru: ";
+                cout << "Masukkan nama_154 baru: ";
                 cin >> namaBaru;
                 cout << "Masukkan usia baru: ";
                 cin >> usiaBaru;
@@ -282,13 +282,13 @@ int main()
                 break;
             }
             case 4: {
-                string nama, namabaru;
+                string nama_154, namabaru;
                 int usia;
-                cout << "Masukkan nama: ";
-                cin >> nama;
+                cout << "Masukkan nama_154: ";
+                cin >> nama_154;
                 cout << "Masukkan usia: ";
                 cin >> usia;
-                cout << "Masukkan nama setelah data baru: ";
+                cout << "Masukkan nama_154 setelah data baru: ";
                 cin >> namabaru;
                 Node* temp = head;
                 int posisi = 1;
@@ -297,7 +297,7 @@ int main()
                     posisi++;
                 }
                 if (temp != NULL) {
-                    input_tengah_154(nama, usia, posisi + 1);
+                    input_tengah_154(nama_154, usia, posisi + 1);
                 } 
                 else {
                     cout << "Data tidak ditemukan" << endl;

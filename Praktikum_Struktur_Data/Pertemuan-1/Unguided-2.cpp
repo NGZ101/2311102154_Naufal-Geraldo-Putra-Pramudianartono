@@ -20,7 +20,7 @@ yang bersifat public (terbuka) secara default.
 
 using namespace std;
 
-// Struct User_154 yang berisi data nama string, tempatlahir string, umur int, dan agama string dalam akses public
+// Struct User_154 yang berisi data nama_154 string, tempatlahir string, umur int, dan agama string dalam akses public
 class user_154{
     public:
     string nama_154;

@@ -54,7 +54,7 @@ public:
         delete temp;
     }
 
-    // fungsi untuk memperbarui data produk berdasarkan nama produk yang lama
+    // fungsi untuk memperbarui data produk berdasarkan nama_154 produk yang lama
     bool update_154(string oldNama_131, string newNama_131, double newHarga_131) {
         Node* current = head;
         while (current != nullptr) {
@@ -92,9 +92,9 @@ public:
 }
 
     // fungsi untuk menyisipkan simpul baru setelah simpul tertentu
-    void insert_after_154(string nama, double harga, string nama_baru) {
+    void insert_after_154(string nama_154, double harga, string nama_baru) {
         Node* newNode = new Node;
-        newNode->nama_154 = nama;
+        newNode->nama_154 = nama_154;
         newNode->harga_154 = harga;
 
         Node* current = head;
@@ -115,15 +115,15 @@ public:
         current->next = newNode;
     }
 
-    // fungsi untuk menghapus simpul dengan nama produk tertentu
-    void delete_node_154(string nama) {
+    // fungsi untuk menghapus simpul dengan nama_154 produk tertentu
+    void delete_node_154(string nama_154) {
         Node* current = head;
-        while (current != nullptr && current->nama_154 != nama) {
+        while (current != nullptr && current->nama_154 != nama_154) {
             current = current->next;
         }
 
         if (current == nullptr) {
-            cout << "Produk " << nama << " tidak tersedia" << endl;
+            cout << "Produk " << nama_154 << " tidak tersedia" << endl;
             return;
         }
 
@@ -175,7 +175,7 @@ int main() {
             case 1: {
                 string nama_154;
                 double harga_154;
-                cout << "Masukkan nama produk: ";
+                cout << "Masukkan nama_154 produk: ";
                 cin >> nama_154;
                 cout << "Masukkan harga produk: ";
                 cin >> harga_154;
@@ -185,7 +185,7 @@ int main() {
             //menghapus data didalam double linked list
             case 2: {
                 string nama_154;
-                cout << "Masukkan nama produk yang ingin dihapus: ";
+                cout << "Masukkan nama_154 produk yang ingin dihapus: ";
                 cin >> nama_154;
                 list.delete_node_154(nama_154);
                 break;
@@ -194,9 +194,9 @@ int main() {
             case 3: {
                 string oldNama_131, newNama_131;
                 double newHarga_131;
-                cout << "Masukkan nama produk yang ingin diupdate: ";
+                cout << "Masukkan nama_154 produk yang ingin diupdate: ";
                 cin >> oldNama_131;
-                cout << "Masukkan nama produk baru: ";
+                cout << "Masukkan nama_154 produk baru: ";
                 cin >> newNama_131;
                 cout << "Masukkan harga produk baru: ";
                 cin >> newHarga_131;
@@ -208,23 +208,23 @@ int main() {
             }
             //menambahkan data dengan urutan yang diinginkan user
             case 4: {
-                string nama, nama_baru;
+                string nama_154, nama_baru;
                 double harga;
-                cout << "Masukkan nama produk baru: ";
-                cin >> nama;
+                cout << "Masukkan nama_154 produk baru: ";
+                cin >> nama_154;
                 cout << "Masukkan harga produk baru: ";
                 cin >> harga;
-                cout << "Masukkan nama produk setelah produk yang ingin ditambahkan: ";
+                cout << "Masukkan nama_154 produk setelah produk yang ingin ditambahkan: ";
                 cin >> nama_baru;
-                list.insert_after_154(nama, harga, nama_baru);
+                list.insert_after_154(nama_154, harga, nama_baru);
                 break;
             }
             //menghapus data dengan urutan yang diinginkan user
             case 5: {
-                string nama;
-                cout << "Masukkan nama produk yang ingin dihapus: ";
-                cin >> nama;
-                list.delete_node_154(nama);
+                string nama_154;
+                cout << "Masukkan nama_154 produk yang ingin dihapus: ";
+                cin >> nama_154;
+                list.delete_node_154(nama_154);
                 break;
             }
             //menghapus semua data yang ada didalam double linked list
