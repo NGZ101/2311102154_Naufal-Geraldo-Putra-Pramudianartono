@@ -4,7 +4,7 @@ using namespace std;
 
 // Deklarasi Struct Node
 struct node {
-    string nama_154;
+    string data_154;
     string nim_154;
     node *next;
 };
@@ -38,7 +38,7 @@ int hitung_list_154() {
 void insert_depan_154(string nama_154, string nim_154) {
     // Membuat node baru
     node *baru = new node;
-    baru->nama_154 = nama_154;
+    baru->data_154 = nama_154;
     baru->nim_154 = nim_154;
     baru->next = NULL;
 
@@ -56,7 +56,7 @@ void insert_depan_154(string nama_154, string nim_154) {
 void insert_belakang_154(string nama_154, string nim_154) {
     // Membuat node baru
     node *baru = new node;
-    baru->nama_154 = nama_154;
+    baru->data_154 = nama_154;
     baru->nim_154 = nim_154;
     baru->next = NULL;
 
@@ -84,7 +84,7 @@ void insert_tengah_154(string nama_154, string nim_154, int posisi_154) {
         } 
         else {
             node *baru = new node;
-            baru->nama_154 = nama_154;
+            baru->data_154 = nama_154;
             baru->nim_154 = nim_154;
 
             node *bantu = head;
@@ -102,11 +102,11 @@ void insert_tengah_154(string nama_154, string nim_154, int posisi_154) {
 void ubah_depan_154(string nama_154, string nim_154) {
     if(!isEmpty_154()) {
         // Menyimpan data sebelum diubah
-        string nama_sebelum = head->nama_154;
+        string nama_sebelum = head->data_154;
         string nim_sebelum = head->nim_154;
 
         // Mengubah data
-        head->nama_154 = nama_154;
+        head->data_154 = nama_154;
         head->nim_154 = nim_154;
 
         // Menampilkan informasi
@@ -121,11 +121,11 @@ void ubah_depan_154(string nama_154, string nim_154) {
 void ubah_belakang_154(string nama_154, string nim_154) {
     if(!isEmpty_154()) {
         // Menyimpan data sebelum diubah
-        string nama_sebelum = tail -> nama_154;
+        string nama_sebelum = tail -> data_154;
         string nim_sebelum = tail -> nim_154;
 
         // Mengubah data
-        tail->nama_154 = nama_154;
+        tail->data_154 = nama_154;
         tail->nim_154 = nim_154;
 
         // Menampilkan informasi
@@ -148,11 +148,11 @@ void ubah_tengah_154(string nama_154, string nim_154, int posisi_154) {
         }
 
         // Menyimpan data sebelum diubah
-        string nama_sebelum = bantu -> nama_154;
+        string nama_sebelum = bantu -> data_154;
         string nim_sebelum = bantu -> nim_154;
 
         // Mengubah data
-        bantu->nama_154 = nama_154;
+        bantu->data_154 = nama_154;
         bantu->nim_154 = nim_154;
 
         // Menampilkan informasi
@@ -237,7 +237,7 @@ void tampilan_154() {
         int nomor = 1; // Variabel untuk nomor indeks atau nomor urut
         cout << setw(5) << left << "No" << setw(15) << left << "NAMA" << "NIM" << endl;
         while(bantu != NULL) {
-            cout << setw(5) << left << nomor << setw(15) << left << bantu->nama_154 << bantu->nim_154 << endl;
+            cout << setw(5) << left << nomor << setw(15) << left << bantu->data_154 << bantu->nim_154 << endl;
             bantu = bantu->next;
             nomor++; // Menginkremen nomor indeks atau nomor urut
         }
